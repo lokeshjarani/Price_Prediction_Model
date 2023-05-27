@@ -1,17 +1,18 @@
-function getBathValue() {
-    var uiBathrooms = document.getElementsByName("uiBathrooms");
-    for(var i in uiBathrooms) {
-        if(uiBathrooms[i].checked) {
+ 
+function getBHKValue() {
+    var uiBHK = document.getElementsByName("uiBHK");
+    for(var i in uiBHK) {
+        if(uiBHK[i].checked) {
             return parseInt(i)+1;
         }
     }
     return false;
 }
-  
-function getBHKValue() {
-    var uiBHK = document.getElementsByName("uiBHK");
-    for(var i in uiBHK) {
-        if(uiBHK[i].checked) {
+
+function getBathValue() {
+    var uiBathrooms = document.getElementsByName("uiBathrooms");
+    for(var i in uiBathrooms) {
+        if(uiBathrooms[i].checked) {
             return parseInt(i)+1;
         }
     }
